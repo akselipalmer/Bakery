@@ -1,8 +1,14 @@
 import { Typography } from "@mui/material";
 import Header from "./Header";
+import Body from "./Body";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Body />
+    </>
+  );
 }
 
 export default App;
